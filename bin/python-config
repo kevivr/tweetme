@@ -1,4 +1,4 @@
-#!/Users/viraju/dev/tweetme/bin/python
+#!/Users/viraju/dev/tweetme_new/bin/python
 
 import sys
 import getopt

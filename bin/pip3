@@ -1,4 +1,4 @@
-#!/Users/viraju/dev/tweetme/bin/python3.7
+#!/Users/viraju/dev/tweetme_new/bin/python3.7
 # -*- coding: utf-8 -*-
 import re
 import sys
