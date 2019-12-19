@@ -1,0 +1,27 @@
+{% extends "base.html" %}
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    {% block content %}
+
+        <div class="row">
+            <div class="col-sm-3 col-xs-12">
+                <div>
+                    <h1>{{ obj.tag }}</h1>
+                </div>
+            </div>
+            <div class="col-sm-8 col-sm-offset-2">
+                {% for tweet in obj.get_tweets %}
+                    {{ tweet.content }}
+                {% endfor %}
+            </div>
+        </div>
+    {% endblock content %}
+</body>
+</html>
